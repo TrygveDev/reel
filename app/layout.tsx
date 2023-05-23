@@ -7,16 +7,16 @@ const font = Lexend({
 });
 
 export const metadata = {
-	title: "wegojim",
-	description: "Track your gains, smash your goals",
+	title: "Reel",
+	description: "Discover. Watch. Repeat.",
 	manifest: "/manifest.json",
-	applicationName: "wegojim",
+	applicationName: "Reel",
 	icons: {
 		icon: "/favicon.png",
 		apple: "/apple-touch-icon.png",
 	},
 	appleWebApp: {
-		title: "wegojim",
+		title: "Reel",
 		capable: true,
 		statusBarStyle: "default",
 	},

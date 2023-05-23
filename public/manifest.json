@@ -1,7 +1,7 @@
 {
-	"name": "wegojim",
-	"short_name": "wegojim",
-	"description": "Track your gains, smash your goals",
+	"name": "Reel",
+	"short_name": "Reel",
+	"description": "Discover. Watch. Repeat.",
 	"display": "standalone",
 	"orientation": "portrait",
 	"start_url": "/",
