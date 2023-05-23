@@ -1,21 +1,22 @@
 import "./globals.css";
 import { Lexend } from "next/font/google";
+import ToasterProvider from "./providers/ToasterProvider";
 
 const font = Lexend({
 	subsets: ["latin"],
 });
 
 export const metadata = {
-	title: "Reel",
-	description: "Reel",
+	title: "wegojim",
+	description: "Track your gains, smash your goals",
 	manifest: "/manifest.json",
-	applicationName: "reel",
+	applicationName: "wegojim",
 	icons: {
-		icon: "/512.jpg",
-		apple: "/icons/512.jpg",
+		icon: "/favicon.png",
+		apple: "/apple-touch-icon.png",
 	},
 	appleWebApp: {
-		title: "Reel",
+		title: "wegojim",
 		capable: true,
 		statusBarStyle: "default",
 	},
@@ -28,7 +29,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={font.className}>{children}</body>
+			<body className={font.className}>
+				{children}
+				<ToasterProvider />
+			</body>
 		</html>
 	);
 }

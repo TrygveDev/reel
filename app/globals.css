@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--primary: #fbeaeb;
+	--secondary: #040101;
+	--primary-button: #61dc5b;
+	--secondary-button: #232323;
+	--accent: #5b61dc;
+	color: var(--primary);
+}
+body {
+	width: 100svw;
+	height: 100svh;
+	/* overflow: hidden; */
+	user-select: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+@keyframes tilt-shaking {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(2deg);
+	}
+	50% {
+		transform: rotate(0eg);
+	}
+	75% {
+		transform: rotate(-2deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.wegojim-edit {
+	animation: tilt-shaking 0.5s infinite ease-in-out !important;
+}
