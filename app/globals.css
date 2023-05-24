@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-	--primary: #fbeaeb;
-	--secondary: #040101;
-	--primary-button: #61dc5b;
-	--secondary-button: #232323;
-	--accent: #5b61dc;
+	--primary: #edd8f8;
+	--secondary: #13041a;
+	--primary-button: #711362;
+	--secondary-button: #040102;
+	--accent: #1a040c;
 	color: var(--primary);
 }
 body {
